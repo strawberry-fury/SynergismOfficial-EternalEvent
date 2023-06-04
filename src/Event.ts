@@ -63,7 +63,7 @@ const events: Record<string, HolidayData> = {
     url: 'https://youtu.be/1isq6KySUe8?t=34',
     everyYear: false,
     start: '06/01/2023 00:00:00',
-    end: '06/23/2023 20:00:00',
+    end: '12/31/2023 20:00:00',
     notice: 20,
     event: true,
     buffs: {
