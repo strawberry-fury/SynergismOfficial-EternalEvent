@@ -690,7 +690,7 @@ export const promocodes = async (input: string | null, amount?: number) => {
       const diff = Math.abs(Date.now() - (start + random))
       player.promoCodeTiming.time = Date.now()
 
-      if (diff <= (2500 + 125 * player.cubeUpgrades[61])) {
+      if (diff <= (15000 + 125 * player.cubeUpgrades[61])) {
         const reward = Math.floor(Math.min(1000, (125 + 25 * player.highestSingularityCount)) * (1 + player.cubeUpgrades[61] / 50))
         let actualQuarkAward = player.worlds.applyBonus(reward)
         let blueberryTime = 0
