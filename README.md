@@ -23,7 +23,9 @@ screen -r http-server-session
 
 - For some reason, in the original game, via S/L you can always get full rewards from the `time` code, even if the popup suggests that you should not be able to use this code within 15 mintues of refreshing. So if you are doing that already, using this fork saves you some time.
 - It is a bit frustrating when you forget to click the UNSMITH and enjoy Rick Ashley before doing stuff. This fork fixes it.
+
 - I lost a save last year (progressed up to Omega with 1k Chronos) and I am playing catch-up from the beginning. This fork provides some small speedup that is useful for me, at the very least.
+Note: If you also lost a save, but want to instead start from somebody elses' save, check out [Gringomaniac's collection](https://www.dropbox.com/sh/35pu8vvdly8tq78/AADO8e3mH9KWnGCaWxjWoTloa?dl=0) (also accessible via the pins in #start-here channel on the Synergism Discord).
 
 Below is the original README file.
 
