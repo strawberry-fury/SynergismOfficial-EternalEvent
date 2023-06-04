@@ -1,4 +1,31 @@
-# Synergism - the game
+# Synergism Fork - USE AT YOUR OWN DISCRETION
+
+## Introduction
+This is a fork of the Synergism game I run locally, which contains the following gameplay changes:
+
+- There are no more guesswork for the `time` code. You will always get your Quark rewards.
+- You do not need to click the UNSMITH upon refreshing to receive the benefits.
+- The Graduate event runs through the end of 2023.
+
+The first two changes are mostly QoL (See below section), while some consider the third change cheating (after the original event runs out in late June). Use your own judgment.
+
+Please follow the original README file for setting up this locally. If you are not interested in further changes, I recommend not opening up VSCode, but instead using a script like the following to start the local server and bring up the game in your browser.
+
+```
+npm run build:esbuild
+screen -dmS http-server-session bash -c "npx http-server"
+sleep 1
+open http://localhost:8080 &
+screen -r http-server-session
+```
+
+## Reasoning the Changes
+
+- For some reason, in the original game, via S/L you can always get full rewards from the `time` code, even if the popup suggests that you should not be able to use this code within 15 mintues of refreshing. So if you are doing that already, using this fork saves you some time.
+- It is a bit frustrating when you forget to click the UNSMITH and enjoy Rick Ashley before doing stuff. This fork fixes it.
+- I lost a save last year (progressed up to Omega with 1k Chronos) and I am playing catch-up from the beginning. This fork provides some small speedup that is useful for me, at the very least.
+
+Below is the original README file.
 
 ## Contributing
 Before running any of these commands below, make sure to have installed:
